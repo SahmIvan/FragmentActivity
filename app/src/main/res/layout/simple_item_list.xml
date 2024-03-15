@@ -1,0 +1,16 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="10dp">
+<!--    Elemento que tendra el recycler view -->
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Elemento numero 1"
+        />
+
+</LinearLayout>
